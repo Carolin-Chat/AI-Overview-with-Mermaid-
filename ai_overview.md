@@ -74,31 +74,9 @@ graph TB
     ML --> XAI
     ML --> MLOps
 
-    style AI fill:#e3f2fd
-    style ML fill:#e1f5fe
-    style DL fill:#b3e5fc
-    style SL fill:#b3e5fc
-    style UL fill:#b3e5fc
-    style RL fill:#b3e5fc
-    style CNN fill:#81d4fa
-    style RNN fill:#81d4fa
-    style LSTM fill:#81d4fa
-    style Trans fill:#4fc3f7
-    style NLP fill:#b3e5fc
-    style LLM fill:#4fc3f7
-    style FM fill:#29b6f6
-    style GPT fill:#03a9f4
-    style BERT fill:#03a9f4
-    style T5 fill:#03a9f4
-    style RAG fill:#039be5
-    style GenAI fill:#0288d1
-    style CV fill:#b3e5fc
-    style ASR fill:#b3e5fc
-    style TTS fill:#b3e5fc
-    style MLOps fill:#039be5
-    style XAI fill:#039be5
-    style AGI fill:#e1f5fe
-    style MoE fill:#0288d1
-    style ES fill:#e1f5fe
-    style FewShot fill:#039be5
-    style ZeroShot fill:#039be5
+    %% Styles with black text
+    classDef default font-family:arial,font-weight:normal,font-size:12px
+    classDef node fill:#e3f2fd,color:black
+    
+    %% Apply styles to all nodes
+    class AI,ML,DL,SL,UL,RL,CNN,RNN,LSTM,Trans,NLP,LLM,FM,GPT,BERT,T5,RAG,GenAI,CV,ASR,TTS,MLOps,XAI,AGI,MoE,ES,FewShot,ZeroShot node
